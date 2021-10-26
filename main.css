@@ -202,9 +202,7 @@ p{
 
 .features > h2{
     color: #FBB03A;
-    font-weight: 900;
-   
-     
+    font-weight: 900;   
     
 }
 
@@ -323,11 +321,7 @@ p{
     height: auto;
     margin-top: -400px;
     width: 4%;
-    margin-left: 50%;
-   
-    
-    
-   
+    margin-left: 50%;   
 }
 
 .step1 >h3 {
@@ -347,6 +341,10 @@ p{
 .step4 >h3 {
     margin-top:45px;
     margin-left:1100px;
+}
+
+.apply2_bg {
+    display: none;
 }
 
 .ourteam_box{
@@ -406,7 +404,37 @@ p{
 .about2 >img{
     display: none;
 }
-       
+
+.timeline2_bg{
+    display: none;
+}
+
+.our2{
+    display: none;
+   
+}   
+.our2 >img{
+    display: none;
+}
+
+.features2{
+    display: none;
+}
+
+.users2{
+    display: none;
+}
+
+.users3{
+    display: none;
+}
+#apply2_steps {
+    display: none;
+}
+.ourteam2 {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
 /*
     #header_m{
@@ -419,6 +447,15 @@ p{
     }
     
 */
+     #header_m{
+        display: block;    
+    }
+    
+    .icon {
+        display: contents;
+        background-color:aqua;
+        
+    }
     .intro_bg {
         display: none;
     }
@@ -464,7 +501,381 @@ p{
     .about2 >img{
         display: block;
         margin-top: -20px;
-        
-        
-       
+    }
     
+    .timeline >h2 {
+    color:#FBB03A;
+    opacity: 1;
+    padding-right: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    display: none;
+}
+
+.timeline_bg {
+    width:100%;
+    height: 1350px;
+    background-color: #f9f9f9;
+    display:none;
+}
+.timeline >img {
+    width:100%;
+    height: auto;
+    margin-top:-280px;
+    display:none;
+}
+ 
+.timeline2_bg{
+    display: block;
+    width: 100%;
+    align-items: center;
+    width:100%;
+    height: 978px;
+    background-color: #f9f9f9;
+    }
+    
+    .timeline2_bg >h2 {
+        color: #FBB03A;
+        font-size: 55px;
+        padding-top: 5px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+       
+    .our_bg{
+    background-image:url("images/002.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-top:-15px;    
+}
+   .our >h2{
+    color: white;
+    display: none;
+}
+.our >p{
+    color: white;
+    display: none;
+}
+    
+    
+    .our2 {
+        display: block;
+        width: 100%;
+        height: 740px;
+        align-items: center;
+        background-color: #3c8d9d;
+        margin-top: -1665px;
+        padding-bottom: 35px;
+        padding-top: 20px;
+        }
+    .our2 >h2{
+        color: white;
+        font-size: 55px;
+        padding-top: 5px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .our2 >img{
+     display: block;
+     width: 100%;
+     margin-top: -20px
+     
+}
+    .our2  >p{
+        font-size: 21px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 16px;
+        color: white;
+    } 
+    
+    .features > h2{
+    color: #FBB03A;
+    font-weight: 900;
+    display: none;
+}
+    
+    .features >p{
+        display: none;
+    }
+   
+    .features2 {
+        display: block;
+        width: 100%;
+        height: 980px;
+        align-items: center;
+        background-color: white;
+        margin-top: -1190px;
+    }
+    
+    .features2 >img{
+    display: block;
+     width: 100%;
+     margin-top: -20px;
+     margin-left: -8px;
+    }
+    
+    .features2 >h2{
+        color: #FBB03A;
+        font-size: 55px;
+        padding-top: 5px;
+        margin-left: 25px;
+        margin-right: 25px;
+       }
+    
+    .user_bg >h2 {
+    padding-top: 175px;
+    padding-left: 100px;
+    Padding-bottom: 60px;
+    display:none;
+    }
+    
+    .user_stories{
+    background-color: aqua;
+    display:none;
+}
+.user {
+    width: 40%;
+    height: 600px;
+    text-align: left;
+    margin-top: 90px;
+    margin-right: auto;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    display:none;
+}
+
+.user >img {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-top: -640px;
+    padding: 20px;
+    display:none;
+}
+.user2 {   
+    width: 40%;
+    height: 600px;
+    text-align: left;
+    margin-top: -660px;
+    margin-left: auto;
+    padding-top:30px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    display:none;
+}
+.user2 >img {
+    position: relative;
+    float:left;
+    width: 24%;
+    height: auto;
+    margin-top: -645px;
+    display:none;
+  
+}
+.user >h3{
+    margin-top:25px;
+    display:none;
+}
+.user2 >h3{
+    margin-top:25px;
+    display:none;
+}
+.user2 >p {
+    margin-top:25px;
+    display:none;
+}
+.user>p {
+    margin-top: 25px;
+    display:none;
+}
+    
+    .users2 {
+        display: block;
+        width: 100%;
+        height: 980px;
+        align-items: center;
+        background-color: #FBB03A;
+        margin-top: -1100px;
+    }
+    
+    .users2 >h2{
+    font-size: 53px;
+    padding-top: 20px;
+    padding-left: 20px;
+    Padding-bottom: 15px;
+    color: white;
+    }
+    
+    .users2 >h3{
+    padding-left: 20px;
+    Padding-bottom: 60px;
+    color: black;
+    }
+    
+    .users2 >p{
+     font-size: 21px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 16px;
+        margin-top: 160px;
+        color: white;
+    }
+    
+    .users2 >img{
+     display: block;
+     width: 40%;
+     padding-left: 125px;
+     margin-top: -695px;
+    }
+    
+    .users3 {
+       display: block;
+        width: 100%;
+        height: 830px;
+        align-items: center;
+        background-color: #FBB03A;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+    
+    .users3 >h3{
+    padding-left: 20px;
+    margin-top: -70px;
+    color: black;
+    }
+    
+    .users3 >p{
+         font-size: 21px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 195px;
+        margin-top: 27px;
+        color: white;
+    } 
+    
+    .users3 >img{
+        display: block;
+     width: 40%;
+     padding-left: 125px;
+     margin-top: -749px;
+    }
+    
+    .number{
+    display:none;
+    }
+    
+    .Power{
+        width: 100%;
+        height: auto
+
+    }
+    .Power >h3{
+       color:black;
+       position:absolute;
+       padding-left: 316px;
+       padding-top: 187px;
+    }
+
+    .Solar{
+         width: 100%;
+        height: auto
+    }
+    .Solar>h3{
+       color:black;
+       position:absolute;
+       padding-left: 44px;
+       padding-top: 187px;
+    }
+
+    .Self{
+        width: 100%;
+        height: auto
+    }
+
+     .Self>h3{
+       color:black;
+       position:absolute;
+       padding-left: 44px;
+       padding-top: 416px;
+    }
+
+    .Air{
+        width: 100%;
+        height: auto 
+    }
+    .Air>h3{
+       color:black;
+       position:absolute;
+       padding-left: 292px;
+       padding-top: 416px;
+    }
+
+    .Connect{
+        width: 100%;
+        height: auto 
+    }
+
+    .Connect >h2{
+        color:#FBB03A;
+       position:absolute;
+       padding-top:790px;
+       font-size: 40px;
+       margin-left: 25px;
+    }
+    .box {
+        display: none;
+    }
+    .apply2_bg {
+        display: block;
+        position: absolute;
+        margin-top: -1195px;     
+    }
+    .apply2_bg >h2 {
+        position: absolute;
+        padding-left: 40px;
+        color: white;
+        font-size: 60px;
+        padding-top: 15px;
+    }
+    .apply2_bg >p {
+        position: absolute;
+        color: white;
+        font-size: 18.5px;
+        line-height: 3.8;
+        padding-left: 100px;
+        margin-top: 110px
+    }
+/*    OUR TEAM MOBILE*/
+    .ourteam_box {
+        display: none;
+    }
+    
+    .ourteam2 {
+        display: block;
+        background-color:#1D2B58;
+        height: 800px;
+        margin-top: -768px;
+        margin-bottom:0;
+    }
+    
+    .ourteam2 >h2 {
+        color: white;
+        padding-left: 40px;
+        color: white;
+        font-size: 60px;
+        padding-top: 15px;
+        
+    }
+    .footer {
+        display: none;
+    }
