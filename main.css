@@ -435,6 +435,10 @@ p{
     display: none;
 }
 
+.ourteam3{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
 /*
     #header_m{
@@ -863,7 +867,7 @@ p{
     .ourteam2 {
         display: block;
         background-color:#1D2B58;
-        height: 800px;
+        height: 1000px;
         margin-top: -768px;
         margin-bottom:0;
     }
@@ -873,9 +877,63 @@ p{
         padding-left: 40px;
         color: white;
         font-size: 60px;
-        padding-top: 15px;
-        
+        padding-top: 60px;
+      }
+    
+    .ourteam2 >h3 {
+        color: white;
+        padding-left: 75px;
+        padding-top: 275px;
+    }
+    
+    .ourteam2 >img{
+        display: block;
+        width: 50%;
+        padding-left: 100px;
+        margin-top: -530px
+    }
+    
+    .ourteam2 >p{
+        font-size: 21px;
+        margin-left: 25px;
+        margin-right: 25px;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .ourteam3{
+        display: block;
+        background-color:#1D2B58;
+        height: 1120px;
+        margin-top: -768px;
+        margin-bottom:0;
+    }
+    
+    .ourteam3 >img{
+        display: block;
+        width: 50%;
+        padding-left: 100px;
+        margin-top: -530px
+    }
+    
+    .ourteam3 >h3{
+         color: white;
+        padding-left: 137px;
+        padding-top: 775px;
+    }
+    
+    .ourteam3 >p{
+        font-size: 21px;
+        margin-left: 25px;
+        margin-right: 25px;
+        color: white;
+        margin-top: 15px;
     }
     .footer {
         display: none;
     }
+        .footer2{ 
+         
+         height: 50px;
+         background-color: #141c38;
+        }
